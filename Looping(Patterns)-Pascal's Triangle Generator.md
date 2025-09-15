@@ -27,9 +27,25 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 ---
 
 ## 🧪 Program
-Add Code Here
+a=int(input())
+
+o=1
+
+for i in range (1,a+1):
+
+for j in range (1,i+1):
+
+print(o,end=(" "))
+
+o+=1
+print()
 
 ## Sample Output
+<img width="742" height="647" alt="488743977-9dd804ad-163d-4b7a-a8a1-65da3213d8d2" src="https://github.com/user-attachments/assets/c5977768-e330-4551-b666-2997d0e42fb1" />
+
+
+
 
 ## Result
+Thus, This project demonstrates a simple Python program to generate Floyd’s Triangle, where the number of rows is provided by the user us verified.
 
